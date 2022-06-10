@@ -573,16 +573,15 @@
         function filter(){
             let date = document.getElementById("apptDate").value;
             let barber = "";
-            console.log(document.getElementById("selectBarber1").src);
             if(document.getElementById("servicesDropdown").innerHTML == "Select a Service..."){
                 document.getElementById("filterError").hidden = false;
                 document.getElementById("filterError").innerHTML = "Please select a service!";
                 return;
-            }else if(document.getElementById("selectBarber1").src == "http://127.0.0.1:5500/SEG3125Project1/images/BradleySelect.png"){
+            }else if(document.getElementById("selectBarber1").src == "https://jakekellett.github.io/images/BradleySelect.png"){
                 barber = document.getElementById("selectBarber1").name;
-            }else if(document.getElementById("selectBarber2").src == "http://127.0.0.1:5500/SEG3125Project1/images/AshleySelect.png"){
+            }else if(document.getElementById("selectBarber2").src == "https://jakekellett.github.io/images/AshleySelect.png"){
                 barber = document.getElementById("selectBarber2").name;
-            }else if(document.getElementById("selectBarber3").src == "http://127.0.0.1:5500/SEG3125Project1/images/SebSelect.png"){
+            }else if(document.getElementById("selectBarber3").src == "https://jakekellett.github.io/images/SebSelect.png.png"){
                 barber = document.getElementById("selectBarber3").name;
             }
            
