@@ -573,6 +573,7 @@
         function filter(){
             let date = document.getElementById("apptDate").value;
             let barber = "";
+            console.log(document.getElementById("selectBarber1").src);
             if(document.getElementById("servicesDropdown").innerHTML == "Select a Service..."){
                 document.getElementById("filterError").hidden = false;
                 document.getElementById("filterError").innerHTML = "Please select a service!";
