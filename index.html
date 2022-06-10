@@ -577,15 +577,12 @@
                 document.getElementById("filterError").hidden = false;
                 document.getElementById("filterError").innerHTML = "Please select a service!";
                 return;
-            }else if(document.getElementById("selectBarber1").src == "http://127.0.0.1:5500/images/BradleySelect.png"){
+            }else if(document.getElementById("selectBarber1").src == "http://127.0.0.1:5500/SEG3125Project1/images/BradleySelect.png"){
                 barber = document.getElementById("selectBarber1").name;
-                document.getElementById("filterError").hidden = true;
-            }else if(document.getElementById("selectBarber2").src == "http://127.0.0.1:5500/images/AshleySelect.png"){
+            }else if(document.getElementById("selectBarber2").src == "http://127.0.0.1:5500/SEG3125Project1/images/AshleySelect.png"){
                 barber = document.getElementById("selectBarber2").name;
-                document.getElementById("filterError").hidden = true;
-            }else if(document.getElementById("selectBarber3").src == "http://127.0.0.1:5500/images/SebSelect.png"){
+            }else if(document.getElementById("selectBarber3").src == "http://127.0.0.1:5500/SEG3125Project1/images/SebSelect.png"){
                 barber = document.getElementById("selectBarber3").name;
-                document.getElementById("filterError").hidden = true;
             }
            
             if(barber != ""){
@@ -593,10 +590,10 @@
                 document.getElementById("barberNameTd2").innerHTML = barber;
                 document.getElementById("barberNameTd3").innerHTML = barber;
             }
-            document.getElementById("filterError").hidden = true;
             document.getElementById("barberDateTd1").innerHTML = date;
             document.getElementById("barberDateTd2").innerHTML = date;
             document.getElementById("barberDateTd3").innerHTML = date;
+            document.getElementById("filterError").hidden = true;
 
             let time1 = Math.floor(Math.random() * 12) + 1;
             let time2 = time1;
