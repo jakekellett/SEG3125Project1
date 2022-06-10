@@ -576,6 +576,7 @@
             if(document.getElementById("servicesDropdown").innerHTML == "Select a Service..."){
                 document.getElementById("filterError").hidden = false;
                 document.getElementById("filterError").innerHTML = "Please select a service!";
+                return;
             }else if(document.getElementById("selectBarber1").src == "http://127.0.0.1:5500/images/BradleySelect.png"){
                 barber = document.getElementById("selectBarber1").name;
                 document.getElementById("filterError").hidden = true;
