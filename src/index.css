@@ -1,13 +1,309 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+  font-family: "Quicksand";
+  
+}
+.App{
+  background-image: url('./images/icebackground.jpg');
+  background-size: 100%;
+}
+.wrapper{
+  display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Nav Section */
+.navbar{
+
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #00FFFF;
 }
+
+.navbar .title{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar h1{
+  padding-left: 20px;
+  color: 'black';
+}
+
+.navbar img{
+  max-width: 3%;
+  height: auto;
+  padding-left: 10px;
+}
+
+.navbar .links{
+  margin-left: auto;
+  color: black;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+}
+
+.navbar .links a:hover{
+  text-decoration: underline;
+}
+/* Nav Section Ends*/
+/* Home Section */
+
+.home .intro{
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  color: white;
+}
+
+.home .pin{
+  max-width: 4%;
+  height: auto;
+  padding-right: 20px;
+}
+
+.home .nhlLogo{
+  max-width: 7%;
+  height: auto;
+  margin: 0 auto;
+  margin-right: 0px;
+
+}
+/* Home Section Ends */
+/* News Section */
+
+.news .newsImg{
+  border: black;
+  border-style:groove;
+  border-width: 5px;
+  border-radius: 20px;
+}
+.news .newsTitle{
+  background-color: #00FFFF;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: black;
+  border-style:groove;
+  border-width: 5px;
+  border-radius: 20px;
+}
+
+/* News Section Ends */
+/* Twitter Section */
+.twitterFeed{
+  margin: 0 auto;
+  margin-right: 0px;
+}
+
+.twitterFeed .twitterTitle{
+  background-color: #00FFFF;
+  padding: 20px;
+  text-align: center;
+  border: black;
+  border-style:groove;
+  border-width: 5px;
+  border-radius: 20px;
+}
+
+.twitterFeed .twitterImg{
+  border: black;
+  border-style:groove;
+  border-width: 5px;
+  border-radius: 20px;
+}
+/* Twitter Section Ends*/
+
+/* Teams Section */
+.teams .title{
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+}
+.teams .titleText{
+  font-size: 60px;
+  margin-left: auto;
+}
+.teams .easternConference{
+  height: auto;
+  width: 24%;
+  margin: 0 auto;
+  margin-right: 120px;
+  margin-bottom: 0px;
+}
+
+.teams .westernConference{
+  height: auto;
+  width: 25%;
+  margin-left: 110px; 
+}
+
+.teams .teamTables{
+  display: flex;
+
+
+}
+.teams th{
+  justify-content: center;
+  border: 3px solid;
+  font-weight: bolder;
+}
+.teams table,td{
+  border: 1px solid;
+  border-collapse: collapse;
+  justify-content: left;
+  text-align: left;
+  text-justify:auto;
+  width: 500px;
+  color: black;
+
+
+}
+.teams td:hover{
+  text-decoration: underline;
+  background-color: #00FFFF;
+}
+.teams .eastTeamTable{
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: 70px;
+  background-color: white;
+  border: black;
+  border-style: groove;
+}
+.teams .westTeamTable{
+  margin: 0 auto;
+  margin-left: 70px;
+  background-color: white;
+  border: black;
+  border-style: groove; 
+  padding-top: 500px;
+
+}
+
+.teams .teamLogo{
+  height: auto;
+  width: 20%;
+}
+
+/* Teams Section Ends */
+
+/* Team Section */
+.team .title{
+  display: flex;
+}
+.team .titleText{
+  font-size: 60px;
+  text-align: center;
+  background-color:#00FFFF;
+  border-radius: 15px;
+  border-style: groove;
+  border-color: black;
+  border-width: 6px;
+  padding: 10px;
+  margin-left: auto;
+
+  
+}
+
+.team .teamLogo{
+  height: auto;
+  width: 15%;
+  margin-left: 10px;
+}
+
+.team .nhlLogo{
+  height: auto;
+  width: 12%;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+.team .nextGame{
+  color:black;
+  font-size: 30px;
+  background-color:#00FFFF;
+  border-style: groove;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 3px;
+  margin-right: 975px;
+  margin-left: 10px;
+}
+
+.team .tables{
+  display:flex;
+  justify-content: center;
+}
+
+.team .rosterSection{
+  margin: 0 auto;
+  margin-left: 10px;
+  text-align: center;
+  
+}
+.team .tableTitle{
+  background-color:#00FFFF;
+  border-style: groove;
+  border-radius: 10px;
+  border-color: black;
+  padding-bottom: 0px;
+  margin-bottom: 0%;
+}
+.team .rosterTable{
+  background-color: white;
+  border-style: groove;
+  border-color: black;
+  margin-top: 0%;
+}
+
+.team .leadersTable{
+  background-color: white;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: black;
+}
+.team .leadersSection{
+  margin: 0 auto;
+  margin-right: 10px;
+  text-align: center;
+  
+}
+
+.team .rostersection table,th,td{
+  width: 150px;
+  border: 1px solid;
+  border-collapse: collapse;
+  justify-content: left;
+  text-align: center;
+  text-justify:auto;
+  color: black;
+}
+
+.team .playerPhoto{
+  width: 50px;
+  height: auto;
+}
+
+.team .analyticsBtn{
+  width: 275px;
+  height:50px;
+  margin-top: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.team button:hover{
+  text-decoration: underline;
+  
+}
+/* Team Section End */
