@@ -1,11 +1,19 @@
 {
   "files": {
+
     "main.css": "/static/css/main.34b09a7c.css",
     "main.js": "/static/js/main.6e9fba13.js",
     "static/media/icebackground.jpg": "/static/media/icebackground.459aadbdc31d6d8fc034.jpg",
     "static/media/avalanche.png": "/static/media/avalanche.0e919ba56613a9628fd6.png",
     "static/media/predators.png": "/static/media/predators.442d47536ffbd7520bbe.png",
     "static/media/TwitterFeed.png": "/static/media/TwitterFeed.0a53a0b24371f35eb396.png",
+
+    "main.css": "/static/css/main.2c3675fc.css",
+    "main.js": "/static/js/main.2770361b.js",
+    "static/media/icebackground.jpg": "/static/media/icebackground.459aadbdc31d6d8fc034.jpg",
+    "static/media/greatestPlayers.png": "/static/media/greatestPlayers.5b9f81016d244f83ca0b.png",
+    "static/media/avalanche.png": "/static/media/avalanche.0e919ba56613a9628fd6.png",
+    "static/media/predators.png": "/static/media/predators.442d47536ffbd7520bbe.png",
     "static/media/canadians.png": "/static/media/canadians.39e99d4d085bdfb68e74.png",
     "static/media/oilers.png": "/static/media/oilers.8a51a3b268e1953a55eb.png",
     "static/media/jackets.png": "/static/media/jackets.926d411600bd9f043a25.png",
@@ -18,6 +26,11 @@
     "static/media/panthers.png": "/static/media/panthers.d6af0d89a016489eca33.png",
     "static/media/blackhawks.png": "/static/media/blackhawks.2a7031e4c95736c1228a.png",
     "static/media/knights.png": "/static/media/knights.dd071389680e5aff4f71.png",
+
+
+    "static/media/positions.png": "/static/media/positions.dcb8cca443e9f8f1a4da.png",
+    "static/media/rules.png": "/static/media/rules.e0935ab687017a785010.png",
+
     "static/media/ducks.png": "/static/media/ducks.7e1680a5fc40b72c62d6.png",
     "static/media/kings.png": "/static/media/kings.9366b3a3a558a6c4816f.png",
     "static/media/flyers.png": "/static/media/flyers.181d7e79281d6261dd57.png",
@@ -29,9 +42,15 @@
     "static/media/flames.png": "/static/media/flames.2d7ff57a4ace989006d3.png",
     "static/media/blues.png": "/static/media/blues.271e34ad8a17c2658d98.png",
     "static/media/sharks.png": "/static/media/sharks.7da3bc96a236ebe4300b.png",
+
     "static/media/stars.png": "/static/media/stars.b1e463ac9ea9f90dbf8a.png",
     "static/media/penguins.png": "/static/media/penguins.e71a3361366aa33d4590.png",
     "static/media/News.png": "/static/media/News.8543af1af32544b0bfb2.png",
+
+    "static/media/iceRink.png": "/static/media/iceRink.3fe52b03b48ae21505a0.png",
+    "static/media/stars.png": "/static/media/stars.b1e463ac9ea9f90dbf8a.png",
+    "static/media/penguins.png": "/static/media/penguins.e71a3361366aa33d4590.png",
+
     "static/media/jets.png": "/static/media/jets.d3ad7a2467b7952f7240.png",
     "static/media/coyotes.png": "/static/media/coyotes.17730aedb5f5b67aea9a.png",
     "static/media/kraken.png": "/static/media/kraken.ac24e0c7df993651d50e.png",
@@ -41,6 +60,7 @@
     "static/media/Lightning.png": "/static/media/Lightning.47755cd16a8943531c0c.png",
     "static/media/devils.png": "/static/media/devils.4380a1926d73651ddc23.png",
     "static/media/Location.png": "/static/media/Location.125f96d1be2a1bd957b4.png",
+
     "static/media/blankUser.png": "/static/media/blankUser.445414261befc121223d.png",
     "static/media/Logo.png": "/static/media/Logo.fb481124011556b5e099.png",
     "index.html": "/index.html",
@@ -49,6 +69,20 @@
   },
   "entrypoints": [
     "static/css/main.34b09a7c.css",
-    "static/js/main.6e9fba13.js"
-  ]
+    "static/js/main.6e9fba13.js",
+    "static/media/quiz.png": "/static/media/quiz.62bfcda00c0257af0cb2.png",
+    "static/media/news3.png": "/static/media/news3.de7004625c1929ee54b7.png",
+    "static/media/LogIn.png": "/static/media/LogIn.8f51048dc78fb4c03114.png",
+    "static/media/news2.png": "/static/media/news2.8bce7691108d43b4b451.png",
+    "static/media/news1.png": "/static/media/news1.f4166d1ce5d72884a953.png",
+    "static/media/blankUser.png": "/static/media/blankUser.445414261befc121223d.png",
+    "static/media/help.png": "/static/media/help.42b498109458525d8a9e.png",
+    "static/media/team.png": "/static/media/team.5bda20aaf45b1fe477ec.png",
+    "static/media/Logo.png": "/static/media/Logo.fb481124011556b5e099.png",
+    "index.html": "/index.html",
+    "main.2c3675fc.css.map": "/static/css/main.2c3675fc.css.map",
+    "main.2770361b.js.map": "/static/js/main.2770361b.js.map"
+  }
+  
+
 }
